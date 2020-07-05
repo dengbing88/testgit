@@ -1,7 +1,1 @@
-1. public int getFontHeight(float fontSize)  
-2. {  
-3.      Paint paint = new Paint();  
-4.      paint.setTextSize(fontSize);  
-5.      FontMetrics fm = paint.getFontMetrics();  
-6.     return (int) Math.ceil(fm.descent - fm.top) + 2;  
-7. }  
+[{"height":0,"id":0,"out":"https://www.baidu.com","thumbUrl":"https://i.mmzztt.com/thumb/2020/06/211500_236.jpg","width":0},{"height":0,"id":0,"out":"https://www.baidu.com","thumbUrl":"https://i.mmzztt.com/thumb/2020/06/211500_236.jpg","width":0}]
