@@ -1,1 +1,7 @@
-remove
+1. public int getFontHeight(float fontSize)  
+2. {  
+3.      Paint paint = new Paint();  
+4.      paint.setTextSize(fontSize);  
+5.      FontMetrics fm = paint.getFontMetrics();  
+6.     return (int) Math.ceil(fm.descent - fm.top) + 2;  
+7. }  
